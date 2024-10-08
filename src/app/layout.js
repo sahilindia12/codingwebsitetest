@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "./head/Nav";
 import Foter from "./head/Footer";
@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -18,10 +18,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
       <Navbar/>
 
- 
+<div className=" my-4  border-2 border-green-500  mx-5 rounded-md">
+
+<marquee>
+
+  <h1>
+    thi is me th syir wb site rith now thodign
+  </h1>
+</marquee>
+
+
+</div>
         {children}
         
         

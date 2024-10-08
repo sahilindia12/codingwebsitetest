@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { useState } from 'react';
 import { IoIosHome } from "react-icons/io";
 
-import { Lora } from "next/font/google";
+
 
 const NavbarContainer = styled.div`
   background-color: ;
@@ -38,10 +38,7 @@ const NavbarLink = styled.a`
 `;
 
 
-const roboto = Lora({
-  weight: '400',
-  subsets: ['latin'],
-})
+
 
 // stle
 
@@ -58,22 +55,22 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarContainer className='0   rounded-sm shadow-md   bg-slate-50'> <div  className=" flex justify-center "><h1> <span className=" sm:text-[33px]  text-[44px]">Code </span> <span className=" text-[44px] sm:text-[33px] text-green-400">Solution</span> </h1></div>
+    <NavbarContainer className='0   rounded-sm shadow-md   bg-slate-500'> <div  className=" flex justify-center "><h1> <span className=" sm:text-[33px] text-white  text-[44px]">Code </span> <span className=" text-[44px] sm:text-[33px] text-green-400">Solution</span> </h1></div>
       <Link href="/" >
-        <NavbarLink className=' text-base no-underline' ><label style={headingStyle} className={roboto.className} class='  '></label></NavbarLink>
+        <NavbarLink className=' text-base no-underline' ><label style={headingStyle}  class='  '></label></NavbarLink>
       </Link>
      
       <NavbarLinks className='   sm:bg-slate-100   ' isOpen={isOpen}>
 
-  <Link className='   lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/">
-          {/* <NavbarLink>About</NavbarLink> */} next.js 
+      <Link className='  lg:mr-[3vw]   text-white lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-green-500 px-1 rounded-md   ' href="/movie/newmov">
+      {/* <NavbarLink>About</NavbarLink> */} next.js 
         </Link>
-        <Link className='  lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/movie/newmov">
+        <Link className='  lg:mr-[3vw]   text-white lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-green-500 px-1 rounded-md   ' href="/movie/newmov">
           {/* <NavbarLink>About</NavbarLink> */}react.js
 
         </Link>
-        <Link className='  lg:mr-[3vw]  text-green-400 lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-gray-50 px-1 rounded-md   ' href="/">
-          {/* <NavbarLink>About</NavbarLink> */}java script
+        <Link className='  lg:mr-[3vw]   text-white lg:text-2xl  hover:bg-green-500  mx-auto  no-underline px-1 rounded-md   ' href="/">
+          {/* <NavbarLink>About</NavbarLink> */}java script jj
         </Link>
   
       
@@ -81,7 +78,7 @@ const Navbar = () => {
       
       </NavbarLinks>
 
-      <button className='  text-white md:hidden sm:block   '  onClick={toggleNavbar}><IoIosHome className=' text-red-500 size-10'/>
+      <button className='  text-white md:hidden sm:block   '  onClick={toggleNavbar}><IoIosHome className=' text-white size-10'/>
       </button>
 
     

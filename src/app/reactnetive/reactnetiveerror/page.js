@@ -11,7 +11,7 @@ const Page = () => {
 
 <div className=' grid grid-cols-2 sm:grid-cols-1'>
 
-<div className=' my-1 w-[75%]  md:h-[44%]  flex justify-center items-center rounded-md'>
+<div className=' my-1 w-[75%] sm:w-[95%]   md:h-[44%]  flex justify-center items-center rounded-md'>
 
 <img className=' ' src='../rnsreen.PNG'/>
 </div>
