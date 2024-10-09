@@ -3,10 +3,10 @@ import "./globals.css";
 import Navbar from "./head/Nav";
 import Foter from "./head/Footer";
 import { ToastContainer } from 'react-toastify';
-
 import 'react-toastify/dist/ReactToastify.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Foo from "./head/Foo";
 
 
 export const metadata = {
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         
         
 
-    <Foter/>
+<Foo/>
         <ToastContainer/>
         </body>
     </html>

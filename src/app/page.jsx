@@ -12,7 +12,7 @@ export default  function  page() {
 
   return (
     <div>page
-<Link href={'reactnetive/react-netive-apk'}>apk js</Link>
+<Link href={'reactnetive/react-netive-apk'}> react netive cdreate apk rihgt bhaiya==989999</Link>
 
 <DropdownMenu  />
       <Link href={'./nextjs/nextjs_not_found'}>next js</Link>   
@@ -61,6 +61,11 @@ export default  function  page() {
 
 
 <h2>upa dst this uoy can this cse e now uyu sadfasl djfilasjd</h2>
+
+
+
+
+
 
 
     </div>
