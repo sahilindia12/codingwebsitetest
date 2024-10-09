@@ -60,7 +60,7 @@ const Navbar = () => {
         <NavbarLink className=' text-base no-underline' ><label style={headingStyle}  class='  '></label></NavbarLink>
       </Link>
      
-      <NavbarLinks className='   sm:bg-slate-100   ' isOpen={isOpen}>
+      <NavbarLinks className='   sm:bg-slate-500   ' isOpen={isOpen}>
 
       <Link className='  lg:mr-[3vw]   text-white lg:text-2xl hover:text-black   mx-auto  no-underline hover:bg-green-500 px-1 rounded-md   ' href="/movie/newmov">
       {/* <NavbarLink>About</NavbarLink> */} next.js 
@@ -70,7 +70,7 @@ const Navbar = () => {
 
         </Link>
         <Link className='  lg:mr-[3vw]   text-white lg:text-2xl  hover:bg-green-500  mx-auto  no-underline px-1 rounded-md   ' href="/">
-          {/* <NavbarLink>About</NavbarLink> */}java script jj
+          {/* <NavbarLink>About</NavbarLink> */}java script
         </Link>
   
       

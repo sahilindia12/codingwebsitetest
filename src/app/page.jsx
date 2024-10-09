@@ -12,6 +12,7 @@ export default  function  page() {
 
   return (
     <div>page
+<Link href={'reactnetive/react-netive-apk'}>apk js</Link>
 
 <DropdownMenu  />
       <Link href={'./nextjs/nextjs_not_found'}>next js</Link>   
